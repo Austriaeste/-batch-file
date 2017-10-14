@@ -15,8 +15,5 @@ pushd %local_dir%
 copy %share_dir%ps.xlsx %local_dir%%STR_INPUT%
 start %local_dir%%STR_INPUT%
 
-@rem ファイルパスを開く
-
-
 exit
 
