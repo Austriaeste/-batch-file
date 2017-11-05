@@ -28,7 +28,7 @@ start %share_dir%%STR_INPUT%
 @rem ショートカットをローカルフォルダに格納する
 mklink /D %share_dir%%STR_INPUT% %local_dir%%STR_INPUT%
 
-@rem 共有フォルダ上に必要資材を格納する
+@rem 共有フォルダ上に必要資材を格納する(新規作成用)
 copy %local_dir%iii.xlsx %share_dir%%STR_INPUT%\%STR_INPUT%.xlsx
 pushd %share_dir%%STR_INPUT%\
 start %STR_INPUT%.xlsx
