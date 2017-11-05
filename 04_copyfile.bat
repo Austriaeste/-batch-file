@@ -25,7 +25,7 @@ pushd %share_dir%%STR_INPUT%
 start %share_dir%%STR_INPUT%
 )
 
-@rem ショートカットをローカルフォルダに格納する
+@rem ショートカットをローカルフォルダに格納する(あらかじめ、このバッチファイルを管理者権限で実行できるように設定しておく)
 mklink /D %share_dir%%STR_INPUT% %local_dir%%STR_INPUT%
 
 @rem 共有フォルダ上に必要資材を格納する(新規作成用)
